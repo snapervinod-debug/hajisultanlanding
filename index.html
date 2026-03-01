@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SULTAN HAJI HELPAR INVESTER TRADER</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+
+
+<style>
+
+body{
+margin:0;
+font-family:Poppins;
+background:#000;
+color:white;
+overflow-x:hidden;
+}
+
+.logo{
+text-align:center;
+padding:20px 10px;
+}
+
+.logo img{
+width:80px;
+border-radius:50%;
+box-shadow:0px 0px 15px #00ffae;
+}
+
+.logo h2{
+margin-top:8px;
+font-weight:700;
+}
+
+.btn{
+
+display:block;
+width:92%;
+max-width:360px;
+
+margin:14px auto;
+
+padding:16px;
+
+font-size:18px;
+
+background:linear-gradient(45deg,#00ffae,#00c3ff);
+
+color:black;
+
+border-radius:14px;
+
+text-decoration:none;
+
+font-weight:700;
+
+box-shadow:0px 6px 20px rgba(0,255,174,0.6);
+
+transition:0.3s;
+
+}
+
+.btn:hover{
+transform:scale(1.06);
+}
+
+.container{
+text-align:center;
+padding:15px;
+}
+
+h1{
+font-size:30px;
+margin-top:5px;
+}
+
+p{
+font-size:17px;
+opacity:0.95;
+}
+
+.users{
+margin-top:10px;
+font-size:17px;
+color:#00ffae;
+font-weight:600;
+}
+
+.timer{
+font-size:30px;
+margin-top:15px;
+color:#00ffae;
+font-weight:800;
+}
+
+.popup{
+
+position:fixed;
+bottom:20px;
+left:15px;
+
+background:black;
+padding:10px 15px;
+border-radius:10px;
+
+font-size:14px;
+
+box-shadow:0px 0px 10px #00ffae;
+
+display:none;
+
+}
+
+.disclaimer{
+
+margin-top:30px;
+font-size:12px;
+line-height:18px;
+opacity:0.75;
+background:rgba(255,255,255,0.05);
+padding:15px;
+border-radius:10px;
+
+}
+
+.agency{
+margin-top:30px;
+text-align:center;
+font-size:13px;
+opacity:0.9;
+}
+
+.agency a{
+color:#00ffae;
+text-decoration:none;
+font-weight:600;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="logo">
+
+<img src="https://github.com/snapervinod-debug/haji-sultlsan/releases/download/hajisultan/haji.sultan.jpg">
+
+<h2>SULTAN HAJI HELPAR INVESTER TRADER</h2>
+
+<a href="https://t.me/+pgD4mT2e3RA5NGJl" class="btn">
+JOIN FREE COMMUNITY
+</a>
+
+</div>
+
+
+
+<div class="container">
+
+<h1>Free Live Trading Signals</h1>
+
+<p>Join Our Telegram Channel For Daily Market Learning & Signals</p>
+
+<div class="users">
+🔥 82,000+ Traders Joined
+</div>
+
+
+<a href="https://t.me/+pgD4mT2e3RA5NGJl" class="btn">
+GET FREE SIGNALS
+</a>
+
+
+<div class="timer">
+Joining In <span id="count">30</span>s
+</div>
+
+
+
+<div class="disclaimer">
+
+⚠️ Disclaimer:<br><br>
+
+This webpage is created for educational and informational purposes only.  
+We do not provide financial advice or investment guarantees.
+
+Trading in financial markets involves risk and may not be suitable for all individuals.  
+Past performance does not guarantee future results.
+
+Users should do their own research before making any financial decisions.
+
+</div>
+
+
+<div class="agency">
+✨ Ad setup <a href="https://mahadevmarketing.co/">  @Mahadevmarketing – Click here to grow your business! 🚀 🚀</a>
+</div>
+
+</div>
+
+
+
+<div class="popup" id="popup">
+Rahul from Delhi joined just now 🔥
+</div>
+
+
+
+<script>
+
+/* TIMER AUTO REDIRECT */
+
+var time=60;
+
+var x=setInterval(function(){
+
+time--;
+
+document.getElementById("count").innerHTML=time;
+
+if(time<=0){
+
+clearInterval(x);
+
+window.location="https://t.me/+pgD4mT2e3RA5NGJl";
+
+}
+
+},1000);
+
+
+
+/* Fake Join Popup */
+
+var names=["Rahul","Amit","Ravi","Suresh","Imran","Vikas","Arjun"];
+
+setInterval(function(){
+
+var name=names[Math.floor(Math.random()*names.length)];
+
+document.getElementById("popup").innerHTML=
+name+" joined just now 🔥";
+
+document.getElementById("popup").style.display="block";
+
+setTimeout(function(){
+
+document.getElementById("popup").style.display="none";
+
+},3000);
+
+},6000);
+
+</script>
+
+
+</body>
+
+</html>
